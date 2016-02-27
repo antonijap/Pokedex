@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6895547C1C8105A9009C4E1F /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6895547B1C8105A9009C4E1F /* pokemon.csv */; };
 		68F786701C8102990088FE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7866F1C8102990088FE54 /* AppDelegate.swift */; };
 		68F786721C8102990088FE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F786711C8102990088FE54 /* ViewController.swift */; };
 		68F786751C8102990088FE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F786731C8102990088FE54 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6895547B1C8105A9009C4E1F /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		68F7866C1C8102990088FE54 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F7866F1C8102990088FE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68F786711C8102990088FE54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				68F7866F1C8102990088FE54 /* AppDelegate.swift */,
+				6895547B1C8105A9009C4E1F /* pokemon.csv */,
 				68F786711C8102990088FE54 /* ViewController.swift */,
 				68F786731C8102990088FE54 /* Main.storyboard */,
 				68F786761C8102990088FE54 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			files = (
 				68F7867A1C8102990088FE54 /* LaunchScreen.storyboard in Resources */,
 				68F786771C8102990088FE54 /* Assets.xcassets in Resources */,
+				6895547C1C8105A9009C4E1F /* pokemon.csv in Resources */,
 				68F786751C8102990088FE54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				68F786961C8102990088FE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F786971C8102990088FE54 /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				68F786991C8102990088FE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F7869A1C8102990088FE54 /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				68F7869C1C8102990088FE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
